@@ -30,3 +30,7 @@ function merge(left,right){
 
     return [...sortedArr,...left,...right]
 }
+
+const arr = [2,5,6,1,8,20,4]
+const newArr = mergeSort(arr)
+console.log(newArr)
