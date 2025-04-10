@@ -16,7 +16,7 @@
 // Repeat until the entire array is sorted.
 
 function bubbleSort(arr){
-    let arr = arr.length
+    let n = arr.length
     let swapped;
     do{
         swapped = false
